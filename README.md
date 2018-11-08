@@ -1,24 +1,12 @@
-# README
+# Film fetcher 'breg'
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+projet de @Stephan Mlv avec la team Bréguet
 
-Things you may want to cover:
+Install : git clone, va dans le dossier, bundle install
+Peut-être un db:create et un db:migrate mais l'appli n'utilise pas de base de données donc essayer sans.
 
-* Ruby version
+happy correction!
 
-* System dependencies
+* Ruby version 5.2.1 (try your luck with other versions)
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Gem 2.5.1
