@@ -1,0 +1,20 @@
+<h1>Movies#search</h1>
+
+<form action="/create" method="POST">
+	<%= token_tag %> 
+	<label>film</label>
+	<input type="text" name="film">
+	<input type="submit" name="envoie">
+</form>
+
+
+<!--     <form>
+      <%#= form_for :film, url: 'create' do |f| %>
+      <div class="">
+        <%#= f.text_field :title %>
+      </div>
+      <div class="">
+        <%#= f.submit "Create", name: nil %>
+      </div>
+      <%# end %>
+    </form> -->
